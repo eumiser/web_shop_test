@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<response>
+    <item key="10">
+        <id>11</id>
+        <reference>400945000</reference>
+        <title>XML TOYO ALLIANCE 650/85 R 38 385 TL</title>
+        <description>173 A8/170 D</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/844-R-w300-h300-br1.jpg</imageLink>
+        <price>2650</price>
+    </item>
+    <item key="11">
+        <id>12</id>
+        <reference>1855000</reference>
+        <title>XML CONTINENTAL TOYO 310 135 R15 72 S</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/310-R-w300-h300-br1.jpg</imageLink>
+        <price>28.96</price>
+    </item>
+    <item key="12">
+        <id>13</id>
+        <reference>2342000</reference>
+        <title>XML SEMPERIT *YOKOHAMA A 411 225/55 R16 94 V</title>
+        <description>OE TOYOTA GS 300</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/411-R-w300-h300-br1.jpg</imageLink>
+        <price>134.99</price>
+    </item>
+    <item key="13">
+        <id>14</id>
+        <reference>154957000</reference>
+        <title>XML NEXEN MINERVA 109 165/60 R14 75 H</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/109-R-w300-h300-br1.jpg</imageLink>
+        <price>30.45</price>
+    </item>
+    <item key="14">
+        <id>15</id>
+        <reference>400290000</reference>
+        <title>XML BRIDGESTONE CONTI TS 800 175/70 R14 88 T XL</title>
+        <description>EXTRA LOAD M+S</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/800-R-w300-h300-br1.jpg</imageLink>
+        <price>53.25</price>
+    </item>
+    <item key="15">
+        <id>16</id>
+        <reference>140633000</reference>
+        <title>XML FULDA DEXTERO DWT1 185/65 R15 88 T</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/185-R-w300-h300-br1.jpg</imageLink>
+        <price>34</price>
+    </item>
+    <item key="16">
+        <id>17</id>
+        <reference>69088000</reference>
+        <title>XML GOODYEAR RIGDON 245/70R17.5 547 ZT 136/134M</title>
+        <description>VV TL 1.RE</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/547-R-w300-h300-br1.jpg</imageLink>
+        <price>144</price>
+    </item>
+    <item key="17">
+        <id>18</id>
+        <reference>215444000</reference>
+        <title>XML NEXEN ROCKSTON 109 175/65 R15 84 H</title>
+        <description>DOT 2010</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/109-R-w300-h300-br1.jpg</imageLink>
+        <price>28.03</price>
+    </item>
+    <item key="18">
+        <id>19</id>
+        <reference>403468000</reference>
+        <title>XML TOYO HANKOOK H730 165/70 R14 81 T</title>
+        <description>ALLWETTER OPTIMO 4S OE VW UP</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/730-R-w300-h300-br1.jpg</imageLink>
+        <price>36.07</price>
+    </item>
+    <item key="19">
+        <id>20</id>
+        <reference>154966000</reference>
+        <title>XML NEXEN MINERVA 109 165/70 R14 81 T</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/109-R-w300-h300-br1.jpg</imageLink>
+        <price>29.33</price>
+    </item>
+</response>

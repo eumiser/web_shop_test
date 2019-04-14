@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-12">
+        {% block form_start %}{{ form_start(form) }}{% endblock %}
+
+        <div class="box-header with-border">
+            <a class="btn btn-default" data-dismiss="modal">{{ 'label.cancel'|trans }}</a>
+            <button type="submit" class="btn btn-primary pull-right">{{ 'label.import'|trans }}</button>
+        </div>
+
+        <div class="box-body">
+            <div id="messages-ajax" class="alert alert-danger" style="display: none" role="alert">
+                <div id="text-message-form-ajax"></div>
+            </div>
+
+            {% block form_body %}{{ form_rest(form) }}{% endblock %}
+        </div>
+
+        <div class="box-footer">
+            <a class="btn btn-default" data-dismiss="modal">{{ 'label.cancel'|trans }}</a>
+            <button type="submit" class="btn btn-primary pull-right">{{ 'label.import'|trans }}</button>
+        </div>
+
+        {% block form_end %}{{ form_end(form) }}{% endblock %}
+        <script type="text/javascript" src="{{ asset('app/js/select2.js') }}"></script>
+        {#<script type="text/javascript">var labelAddParameter = "{{ 'label.add_parameter'|trans }}";</script>#}
+        <script type="text/javascript" src="{{ asset('app/js/collectionForm.js') }}"></script>
+    </div>
+</div>

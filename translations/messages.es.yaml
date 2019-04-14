@@ -1,0 +1,91 @@
+app.name: 'Web Shop Test'
+
+Yes: Si
+1: Si
+No: No
+0: No
+actions: Acciones
+
+##########
+## Menu ##
+##########
+menu:
+    title: 'Menú'
+    home: 'Inicio'
+    import: 'Importar'
+
+##########
+## Text ##
+##########
+label:
+    search: 'Buscar'
+    total: 'Total'
+    list: 'Listado'
+    backlist: 'Volver al listado'
+    edit: 'Editar'
+    delete: 'Eliminar'
+    cancel: 'Cancelar'
+    save: 'Guardar'
+    new: 'Nuevo'
+    add: 'Añadir'
+    create: 'Crear'
+    show: 'Ver'
+    id: 'Id'
+    description: 'Descripción'
+    image: 'Imagen'
+    all: 'Todos'
+    processing: 'Procesando'
+    process_can_take_few_minuts: 'Este proceso puede tardar unos minutos.'
+    dashboard: 'Dashboard'
+    import: 'Import'
+    title: 'Título'
+    price: 'Precio'
+    actions: 'Acciones'
+    reference: 'Referencia'
+
+##############
+## Entities ##
+##############
+product:
+    entity: 'Producto'
+    entity_plural: 'Productos'
+    reference: 'Id referencia'
+    title: 'Título'
+    description: 'Descripción'
+    image: 'Imagen'
+    images: 'Imágenes'
+    image_link: 'Dirección de enlace de la imagen'
+    price: 'Precio'
+    import_products: 'Importar productos'
+    import_title: 'Importar Productos'
+    overwrite: 'Sobreescribir'
+    import_text: 'Importa productos desde un archivo.'
+    error_import_id: 'Id erróneo'
+    error_import_title: 'Título vacío'
+    error_import_price: 'Precio erróneo'
+    error_import_product_image: 'Link url de imagen vacío'
+
+form:
+    save_successfully: 'Guardado correctamente'
+    save_error: 'Error guardando'
+    update_successfully: 'Actualizado correctamente'
+    update_error: 'Error actualizando'
+    delete_successfully: 'Eliminado correctamente'
+    delete_error: 'Error eliminando'
+    create_successfully: 'Creado correctamente'
+    create_error: 'Error creando'
+    close: 'Cerrar'
+    confirm_delete_register: '¿Estás seguro de eliminar este registro?'
+    import_error: 'Error al importar'
+    import_successfully: 'importado correctamente'
+    overwrite: 'Sobreescribir'
+    import_description: 'Selecciona un archivo para importar'
+    read_csv_file_error: 'Could not read csv file.'
+    required_headers_missing_csv: 'Faltan cabeceras requeridas en el archivo csv.'
+    type_csv_error: 'El tipo de archivo seleccionado no se corresponde con CSV.'
+
+error:
+    not_found: 'No encontrado'
+    file_not_found_in: 'Archivo no encontrado en:'
+    directory_not_found: 'No se encuentra el directorio:'
+    in_line: 'En la linea'

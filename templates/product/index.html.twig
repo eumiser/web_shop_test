@@ -1,0 +1,21 @@
+{% extends 'datatable.html.twig' %}
+
+{% block title %}{{ 'product.entity_plural'|trans }} {{ 'label.list'|trans }}{% endblock %}
+{% block titleContent %}{{ 'product.entity_plural'|trans }} {{ 'label.list'|trans }}{% endblock %}
+
+{% block breadcrumb %}
+    <li>{{ 'product.entity_plural'|trans }}</li>
+    <li class="active">{{ 'label.list'|trans }}</li>
+{% endblock %}
+
+{% block contenido %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-body">
+                    {{ sg_datatables_render(datatable) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

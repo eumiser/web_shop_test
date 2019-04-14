@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>{% block title %}{{ 'app.name'|trans }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ 'app.name'|trans }}{% endblock %}"/>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'/>
+
+    <!-- bootstrap 3.0.2 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link href="{{ asset('app/css/ionicons.min.css') }}" rel="stylesheet" type="text/css"/>
+    <!-- Theme style -->
+    <link href="{{ asset('app/plugins/select2/select2.min.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('app/css/AdminLTE.min.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('app/css/all-skins.min.css') }}" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    {% block stylesheets %}{% endblock %}
+
+    {% block javascripts_head %}
+        <!-- jQuery 3.2.1 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="{{ asset('app/js/jquery-ui.min.js') }}"></script>
+        <!-- Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment-with-locales.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- jQuery Autocomplete -->
+        <script src="{{ asset('app/js/jquery.autocomplete.min.js') }}"></script>
+    {% endblock %}
+
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+{% block content %}{% endblock %}
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="{{ asset('app/js/html5shiv.js') }}"></script>
+<script src="{{ asset('app/js/respond.min.js') }}"></script>
+<![endif]-->
+
+{% block javascripts %}{% endblock %}
+</body>
+</html>

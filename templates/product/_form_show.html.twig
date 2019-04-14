@@ -1,0 +1,39 @@
+{% extends 'forms/base_show.html.twig' %}
+
+{% block form_title %}{{ 'product.entity'|trans }} {{ entity.title }}{% endblock %}
+
+{% block form_body %}
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box">
+                <div class="box-body">
+                    <table class="table table-condensed">
+                        <tr>
+                            <td>{{ 'product.reference'|trans }}</td>
+                            <td>{{ entity.reference }}</td>
+                        </tr>
+                        <tr>
+                            <td>{{ 'product.title'|trans }}</td>
+                            <td>{{ entity.title }}</td>
+                        </tr>
+                        <tr>
+                            <td>{{ 'product.price'|trans }}</td>
+                            <td>{{ entity.price }}</td>
+                        </tr>
+                        <tr>
+                            <td>{{ 'product.description'|trans }}</td>
+                            <td>{{ entity.description }}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="box">
+                <div class="box-body text-center">
+                    <img src="{{ entity.imageLink }}" width="300" height="300"/>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

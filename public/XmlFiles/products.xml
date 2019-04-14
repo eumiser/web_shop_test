@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<response>
+    <item key="0">
+        <id>1</id>
+        <reference>39676000</reference>
+        <title>XML TOYO KUMHO 857 205/65R16C 107T</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/857-R-w300-h300-br1.jpg</imageLink>
+        <price>59.99</price>
+    </item>
+    <item key="1">
+        <id>2</id>
+        <reference>196835000</reference>
+        <title>XML TOYO MARSHAL 857 235/65 R16 115R</title>
+        <description>DOT 2008</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/857-R-w300-h300-br1.jpg</imageLink>
+        <price>87.4</price>
+    </item>
+    <item key="2">
+        <id>3</id>
+        <reference>251647000</reference>
+        <title>XML TOYO MARSHAL 857 195/75R16C 107R 8PR</title>
+        <description>DOT 2011</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/857-R-w300-h300-br1.jpg</imageLink>
+        <price>51.25</price>
+    </item>
+    <item key="3">
+        <id>4</id>
+        <reference>154761000</reference>
+        <title>XML NEXEN ROCKSTON 109 185/70 R13 86 T</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/109-R-w300-h300-br1.jpg</imageLink>
+        <price>30.99</price>
+    </item>
+    <item key="4">
+        <id>5</id>
+        <reference>145003000</reference>
+        <title>XML GOODYEAR ITP 589MS 25X10.0-11 6 PR TL</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/589-R-w300-h300-br1.jpg</imageLink>
+        <price>58</price>
+    </item>
+    <item key="5">
+        <id>6</id>
+        <reference>10228000</reference>
+        <title>XML BRIDGESTONE RIGDON 780 165/70 R13 79 Q</title>
+        <description>RUNDERN. T&#xDC;V-GEPR&#xDC;FT M+S</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/780-R-w300-h300-br1.jpg</imageLink>
+        <price>26.7</price>
+    </item>
+    <item key="6">
+        <id>7</id>
+        <reference>409716000</reference>
+        <title>XML TOYO CON. 100/90- 10 61 J TL SCOOTY</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/790-R-w300-h300-br1.jpg</imageLink>
+        <price>21.72</price>
+    </item>
+    <item key="7">
+        <id>8</id>
+        <reference>252503000</reference>
+        <title>XML MICHELIN DUNLOP WIN-4D 225/55 R18 102H XL</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/225-R-w300-h300-br1.jpg</imageLink>
+        <price>193.39</price>
+    </item>
+    <item key="8">
+        <id>9</id>
+        <reference>44550000</reference>
+        <title>XML TOYO *MARSHAL 857 215/75R16C 116Q 10P</title>
+        <description>AUSLAUF</description>
+        <imageLink>http://media2.tyre24.de/images/tyre/857-R-w300-h300-br1.jpg</imageLink>
+        <price>69.95</price>
+    </item>
+    <item key="9">
+        <id>10</id>
+        <reference>44560000</reference>
+        <title>XML TOYO MARSHAL 857 205/65R16C 107T 8PR</title>
+        <description></description>
+        <imageLink>http://media2.tyre24.de/images/tyre/857-R-w300-h300-br1.jpg</imageLink>
+        <price>51.9</price>
+    </item>
+</response>

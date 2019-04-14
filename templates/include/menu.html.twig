@@ -1,0 +1,16 @@
+<section class="sidebar">
+    <div class="user-panel">
+    </div>
+    <ul class="sidebar-menu" id="mainMenu">
+        <li data-menu="menu-products" class="treeview">
+            <a href="{{ path("product_index") }}">
+                <i class="fa fa-fw">P</i><span>{{ 'product.entity_plural'|trans }}</span>
+            </a>
+        </li>
+        <li data-menu="menu-import" class="treeview">
+            <a href="{{ path("product_upload_index") }}">
+                <i class="fa fa-fw">I</i><span>{{ 'menu.import'|trans }}</span>
+            </a>
+        </li>
+    </ul>
+</section>

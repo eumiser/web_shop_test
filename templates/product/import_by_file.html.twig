@@ -1,0 +1,19 @@
+{% extends 'intranet.html.twig' %}
+
+{% block title %}{{ 'product.import_title'|trans }}{% endblock %}
+{% block titleContent %}{{ 'product.import_title'|trans }}{% endblock %}
+
+{% block breadcrumb %}
+    <li class="active">{{ 'menu.import'|trans }}</li>
+{% endblock %}
+
+{% block contenido %}
+    <div class="box">
+        {% include('product/_form_import_by_file.html.twig') %}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="{{ asset('app/js/formDynamicTranslationImportFile.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,4 @@
+services:
+    App\Datatables\ProductDatatable: ['@doctrine.orm.entity_manager']
+
+

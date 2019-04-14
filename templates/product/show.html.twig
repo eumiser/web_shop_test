@@ -1,0 +1,26 @@
+{% extends 'intranet.html.twig' %}
+
+{% block title %}{{ 'product.entity'|trans }}: {{ entity.reference }}{% endblock %}
+{% block titleContent %}{{ 'product.entity'|trans }} {{ entity.title }}{% endblock %}
+
+{% block breadcrumb %}
+    <li>{{ 'label.show'|trans }}</li>
+    <li class="active">{{ entity.reference }}</li>
+{% endblock %}
+
+{% block contenido %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-solid">
+                <div class="box-body text-right">
+                    <a class="btn btn-primary" href="{{ path('product_index') }}"
+                       title="{{ 'label.backlist'|trans }} {{ 'product.entity'|trans }}">
+                        {{ 'label.backlist'|trans }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'product/_form_show.html.twig' %}
+{% endblock %}

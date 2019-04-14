@@ -1,0 +1,128 @@
+#remittance-statistics {
+    border-bottom: solid 1px #E4E4E4 !important;
+}
+
+#remittance-statistics > thead > tr:nth-child(1),
+#remittance-statistics > thead > tr:nth-child(3) {
+    color: black;
+}
+
+#remittance-statistics tr.odd {
+    background-color: #f4f8fb !important;
+}
+
+#remittance-statistics tr.even {
+    background-color: #fff !important;
+}
+
+#remittance-statistics > thead > tr > th {
+    text-align: left;
+}
+
+#remittance-statistics > thead > tr:nth-child(1) th {
+    padding-right: 5px;
+}
+
+#remittance-statistics > thead > tr:nth-child(2) th,
+#remittance-statistics > thead > tr:nth-child(3) th {
+    text-align: right !important;
+    padding-right: 5px !important;
+}
+
+#remittance-statistics > tbody > tr > td {
+    text-align: right;
+}
+
+#remittance-statistics th:nth-child(odd),
+#remittance-statistics td:nth-child(odd),
+#remittance-statistics > thead > tr > th:last-child {
+    border-right: solid 1px #E4E4E4 !important;
+}
+
+#remittance-statistics > thead > tr:nth-child(1) > th {
+    border: 0 !important;
+}
+
+#remittance-statistics > tbody > tr > td:nth-child(1) {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+#remittance-statistics {
+    width: 100% !important;
+    table-layout: fixed;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+#remittance-statistics > tbody > tr > td:nth-child(4),
+#remittance-statistics > tbody > tr > td:nth-child(5),
+#remittance-statistics > tbody > tr > td:nth-child(12),
+#remittance-statistics > tbody > tr > td:nth-child(13) {
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    display: inline;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+.tabla_estadisticas_peke td {
+    padding: 0;
+}
+
+.tabla_estadisticas_peke td:nth-child(1) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.tabla_estadisticas_peke td:nth-child(2) {
+    text-align: left;
+}
+
+#remittance-statistics > thead > tr:nth-child(1) {
+    font-size: 13px;
+}
+
+#remittance-statistics tr td:nth-child(4),
+#remittance-statistics tr td:nth-child(12),
+#remittance-statistics thead tr:nth-child(2) th:nth-child(4),
+#remittance-statistics thead tr:nth-child(3) th:nth-child(4),
+#remittance-statistics thead tr:nth-child(2) th:nth-child(12),
+#remittance-statistics thead tr:nth-child(3) th:nth-child(12) {
+    border-left: 4px solid #E4E4E4 !important;
+}
+
+#remittance-statistics tr td:nth-child(5),
+#remittance-statistics tr td:nth-child(13),
+#remittance-statistics thead tr:nth-child(2) th:nth-child(5),
+#remittance-statistics thead tr:nth-child(3) th:nth-child(5),
+#remittance-statistics thead tr:nth-child(2) th:nth-child(13),
+#remittance-statistics thead tr:nth-child(3) th:nth-child(13) {
+    border-right: 4px solid #E4E4E4 !important;
+}
+
+#remittance-statistics thead tr:nth-child(1) th:nth-child(3),
+#remittance-statistics thead tr:nth-child(1) th:nth-child(7) {
+    background: #E4E4E4 !important;
+}
+
+#remittance-statistics th:nth-child(18),
+#remittance-statistics td:nth-child(18) {
+    border-right: 1px solid #E4E4E4 !important;
+}
+
+@media (max-width: 1200px) {
+    #remittance-statistics {
+        font-size: 10px;
+        table-layout: auto;
+    }
+}

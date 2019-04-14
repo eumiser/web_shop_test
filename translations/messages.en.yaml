@@ -1,0 +1,91 @@
+app.name: 'Web Shop Test'
+
+Yes: Yes
+1: Yes
+No: No
+0: No
+actions: Actions
+
+##########
+## Menu ##
+##########
+menu:
+    title: 'Menu'
+    home: 'Home'
+    import: 'Import'
+
+##########
+## Text ##
+##########
+label:
+    search: 'Search'
+    total: 'Total'
+    list: 'List'
+    backlist: 'Back to list'
+    edit: 'Edit'
+    delete: 'Delete'
+    cancel: 'Cancel'
+    save: 'Save'
+    new: 'New'
+    add: 'Add'
+    create: 'Create'
+    show: 'Show'
+    id: 'Id'
+    description: 'Description'
+    image: 'Image'
+    all: 'All'
+    processing: 'Processing'
+    process_can_take_few_minuts: 'This process can take a few minutes.'
+    dashboard: 'Dashboard'
+    import: 'Import'
+    title: 'Title'
+    price: 'Price'
+    actions: 'Actions'
+    reference: 'Reference'
+
+##############
+## Entities ##
+##############
+product:
+    entity: 'Product'
+    entity_plural: 'Products'
+    reference: 'Reference id'
+    title: 'Title'
+    description: 'Description'
+    image: 'Image'
+    images: 'Images'
+    image_link: 'Image link url'
+    price: 'Price'
+    import_products: 'Import products'
+    import_title: 'Products import'
+    overwrite: 'Overwrite'
+    import_text: 'Import products from file.'
+    error_import_id: 'Bad id'
+    error_import_title: 'Empty title'
+    error_import_price: 'Bad price'
+    error_import_product_image: 'Empty image link'
+
+form:
+    save_successfully: 'Save successfully'
+    save_error: 'Error to save'
+    update_successfully: 'Updated successfully'
+    update_error: 'Error to update'
+    delete_successfully: 'Deleted successfully'
+    delete_error: 'Error to delete'
+    create_successfully: 'Created successfully'
+    create_error: 'Error to create'
+    close: 'Close'
+    confirm_delete_register: 'Are you sure to delete this registry?'
+    import_error: 'Import error'
+    import_successfully: 'imported successfully'
+    overwrite: 'Overwrite'
+    import_description: 'Select file to import'
+    read_csv_file_error: 'Do not read de excel file.'
+    required_headers_missing_csv: 'Required headers from csv are missing.'
+    type_csv_error: 'The selected file type does not correspond to CSV.'
+
+error:
+    not_found: 'not found'
+    file_not_found_in: 'File not found in:'
+    directory_not_found: 'Not found a directory:'
+    in_line: 'In line'

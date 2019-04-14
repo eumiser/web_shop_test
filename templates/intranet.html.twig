@@ -1,0 +1,94 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ asset('app/plugins/colorpicker/bootstrap-colorpicker.min.css') }}" rel="stylesheet"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.25/daterangepicker.min.css">
+    <link href="{{ asset('app/css/comun.css') }}" rel="stylesheet" type="text/css"/>
+{% endblock %}
+
+{% block bodyclass %}fixed skin-purple sidebar-mini wysihtml5-supported{% endblock %}
+
+{% block content %}
+    <div class="wrapper">
+        <header class="main-header">
+            <a href="#" class="logo">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                <span class="logo-lg">
+                    <img src="{{ asset('app/img/logo.png') }}" height="35" alt="{{ 'app.name'|trans }}"
+                         title="{{ 'app.name'|trans }}" class="icon"/> {{ 'app.name'|trans }}
+                </span>
+                <span class="logo-mini">
+                    <img src="{{ asset('app/img/logo.png') }}" height="45" alt="{{ 'app.name'|trans }}"
+                         title="{{ 'app.name'|trans }}" class="icon" style="max-width:80%;"/>
+                </span>
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top">
+                {% include('include/header.html.twig') %}
+            </nav>
+        </header>
+
+        <aside class="main-sidebar">
+            {% include('include/menu.html.twig') %}
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <h1>{% block titleContent %}{{ 'menu.home'|trans }}{% endblock %}</h1>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i> {{ 'menu.home'|trans }}
+                        </a>
+                    </li>
+                    {% block breadcrumb %}
+                        <li class="active">{{ 'label.dashboard'|trans }}</li>
+                    {% endblock %}
+                </ol>
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div id="ajax-flash" class="alert alert-success alert-dismissable fade in" role="alert"
+                     style="display: none">
+                    <button type="button" class="close" id="ajax-alert-message-close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <span id="ajax-flash-message"></span>
+                </div>
+                {% block contenido %}{% endblock %}
+            </section><!-- /.content -->
+        </div><!-- /.right-side -->
+    </div>
+
+    <div class="control-sidebar-bg" style="position: fixed; height: auto;"></div>
+
+    <div class="modal fade" id="modal-loading" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body text-center">
+                    <h3><i class="fa fa-cog fa-spin"></i> {{ 'label.processing'|trans }}</h3>
+                    <p class="help-block">{{ 'label.process_can_take_few_minuts'|trans }}<p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <!-- AdminLTE App -->
+    <script src="{{ asset('app/plugins/slimScroll/jquery.slimscroll.min.js') }}"
+            type="text/javascript"></script>
+    <script src="{{ asset('app/plugins/fastclick/fastclick.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('app/plugins/select2/select2.full.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('app/plugins/select2/i18n/es.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('app/js/app.min.js') }}" type="text/javascript"></script>
+{% endblock %}
